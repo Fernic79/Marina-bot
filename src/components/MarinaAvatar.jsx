@@ -11,7 +11,7 @@ const MarinaAvatar = ({ state }) => {
       {/* Contenedor cuadrado que recorta la imagen en círculo por CSS */}
       <div className={`relative z-10 w-36 h-36 md:w-48 md:h-48 rounded-full overflow-hidden shadow-xl border-4 border-white ${getAnimation()}`}>
         <img 
-          src="public/marina.png" 
+          src="/marina.png" 
           alt="Marina - Asistente UdeMM" 
           className="w-full h-full object-cover object-center"
         />
